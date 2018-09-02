@@ -1,3 +1,7 @@
+## Changes
+
+Add TypeScript suport 
+
 ## Largest Rectangle In Polygon
 
 Return the largest rectangle contained in a polygon.
