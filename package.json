@@ -1,0 +1,30 @@
+{
+  "name": "largest-rect-in-poly",
+  "version": "0.1.2",
+  "description": "Given a polygon (array of x, y coordinates) finds the largest contained rectangle",
+  "main": "lib/index.js",
+  "dependencies": {
+    "simplify-js": "^1.2.1",
+    "d3": "~3.5.5"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "mocha": "~2.1.0",
+    "should": "^4.6.3"
+  },
+  "scripts": {
+    "prepublish": "babel index.js --out-dir lib",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/socialtables/largest-rect-in-poly.git"
+  },
+  "author": "Social Tables",
+  "license": "Social Tables",
+  "bugs": {
+    "url": "https://github.com/socialtables/largest-rect-in-poly/issues"
+  },
+  "homepage": "https://github.com/socialtables/largest-rect-in-poly"
+}
